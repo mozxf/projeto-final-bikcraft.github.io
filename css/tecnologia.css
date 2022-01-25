@@ -1,0 +1,132 @@
+
+.tecnologia {
+    background: var(--cor-preto-2);
+    box-shadow: inset 0 -100px #fff, inset 0 100px #fff;
+    ;
+}
+
+.tecnologia-wrapper {
+    display: flex;
+    margin: 0px 160px;
+    align-items: center;
+    gap: 40px;
+    height: 1100px;
+}
+
+.tecnologia-wrapper span {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-cinza-5);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.tecnologia-wrapper h2 {
+font-family: var(--fonte-poppins);
+color: var(--cor-branco);
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+position: relative;
+}
+
+.tecnologia-wrapper h2::after {
+ content: "";
+ width: 10px;
+ height: 10px;
+ border-radius: 5px;
+ background: var(--cor-amarelo-claro-1);
+ position: absolute;
+ bottom: 15px;
+ right: 75px;
+}
+
+.tecnologia-wrapper p {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-cinza-5);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.tecnologia-wrapper a {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-amarelo-claro-1);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--cor-amarelo-claro-1);
+    width: fit-content;
+    transition: .3s;
+
+}
+
+.tecnologia-wrapper a:hover {
+    color: var(--cor-branco);
+    border-bottom: 5px solid #fff;
+
+}
+
+.tecnologia-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 20px ;
+}
+
+.tecnologia-descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.tecnologia-vantagem {
+    display: flex;
+    gap: 20px;
+
+}
+
+.tecnologia-vantagem-item {
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+
+
+.tecnologia-vantagem-item h3 {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+
+}
+
+.tecnologia-vantagem-item p {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-cinza-5);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.tecnologia-vantagem-item img {
+    max-width: 24px;
+
+
+}
+
+
+.tecnologia-wrapper > img {
+    height: 1100px;
+    width: 600px;
+    border-radius: 5px;
+
+}

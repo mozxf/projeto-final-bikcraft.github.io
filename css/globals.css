@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-cinza-1: #F7F7F7;
+    --cor-cinza-2: #EDEDED;
+    --cor-cinza-3: #DEDEDE;
+    --cor-cinza-4: #CCCCCC;
+    --cor-cinza-5: #B2B2B2;
+    --cor-cinza-6: #9C9C9C;
+    --cor-cinza-7: #717171;
+    --cor-cinza-8: #595959;
+    --cor-cinza-9: #404040;
+    --cor-preto-1: #000000;
+    --cor-preto-2: #111111;
+
+    --cor-amarelo-claro-1: #FFBB00;
+    --cor-amarelo-claro-2: #E4A30B;
+    --cor-amarelo-escuro-1: #A66F00;
+    --cor-amarelo-escuro-2: #664400;
+    --cor-amarelo-escuro-3: #332200;
+
+
+    --fonte-poppins: "Poppins", sans-serif;
+    --fonte-roboto:  "Roboto", sans-serif;
+    
+
+}
