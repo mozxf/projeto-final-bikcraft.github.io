@@ -1,1 +1,4 @@
+@import url(/css/globals.css);
 @import url(/css/bicicletas/header.css);
+@import url(/css/bicicletas/bicicletas.css);
+@import url(/css/bicicletas/footer.css);

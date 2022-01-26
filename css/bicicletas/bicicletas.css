@@ -1,0 +1,261 @@
+.bicicletas-header {
+    background: var(--cor-preto-2);
+    padding: 60px 180px ;
+    background-image: url(/img/dec/top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 87% 40%;
+
+
+}
+
+.bicicletas-header span {
+font-family: var(--fonte-roboto);
+color: var(--cor-cinza-5);
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+
+
+}
+
+.bicicletas-header h1 {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-branco);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    width: fit-content;
+    position: relative;
+}
+
+.bicicletas-header h1:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--cor-amarelo-claro-1);
+    position: absolute;
+    bottom: 15px;
+    right: -10px;
+
+}
+
+
+.bicicletas-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0px;
+
+}
+
+.bicicletas-item {
+    display: flex;
+    padding: 60px 180px;
+    position: relative;
+    gap: 40px;
+    
+
+
+}
+
+.bicicletas-item:nth-child(2), .bicicletas-item:nth-child(2) h2 {
+background: var(--cor-preto-2);
+color: var(--cor-branco);
+
+}
+
+.bicicletas-item:nth-child(2) p, .bicicletas-item:nth-child(2) li {
+    color: var(--cor-cinza-5);
+}
+
+.bicicletas-item:nth-child(2) {
+    box-shadow: inset 380px 0px #fff;
+
+
+}
+
+.item-info {
+    background-image: url(/img/dec/top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.bicicletas-item h2 {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-preto-2);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 30px;
+    position: relative;
+    width: fit-content;
+
+}
+
+.bicicletas-item h2::before {
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: var(--cor-amarelo-claro-1);
+    position: absolute;
+    top: -15px
+
+
+
+}
+
+.bicicletas-item p, .bicicletas-item li {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-cinza-8);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 45ch;
+
+}
+
+.bicicletas-item li {
+    display: flex;
+    font-weight: 500;
+    position: relative;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.bicicletas-item li:nth-child(1):before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icones/eletrica.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 10px;
+}
+.bicicletas-item li:nth-child(2):before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icones/carbono.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 10px;
+}
+.bicicletas-item li:nth-child(3):before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icones/velocidade.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 10px;
+}
+.bicicletas-item li:nth-child(4):before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icones/rastreador.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 10px;
+}
+
+
+.imagem-wrapper{
+    position: relative;
+    width: 50%;
+}
+
+.bicicletas-item span {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background: var(--cor-preto-1);
+    padding: 5px 10px;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+    position: absolute;
+    place-self: end end;
+    right: 0px;
+    top: 20px;
+    z-index: 1;
+
+}
+
+.bicicletas-item img {
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.item-info li {
+    padding: 5px 0px;
+}
+
+.item-info ul {
+    padding-bottom: 30px ;
+
+}
+
+.item-info > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.item-info a {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-amarelo-escuro-3);
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    padding: 15px 30px;
+    background: var(--cor-amarelo-claro-1);
+    place-self: end;
+    border-radius: 4px;
+    position: relative;
+}
+
+.item-info a:after {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url(/img/icones/seta.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+
+}
+
+.item-info a:hover {
+    background: var(--cor-amarelo-claro-2);
+
+}
