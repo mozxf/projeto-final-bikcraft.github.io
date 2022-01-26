@@ -1,0 +1,77 @@
+
+.depoimento {
+    display: flex;
+    max-height: 500px;
+}
+
+
+
+
+.depoimento img {
+    width: 50%;
+    object-fit: cover;
+    object-position: 50% 65% ;
+
+}
+
+.depoimento-texto {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-amarelo-claro-1);
+    justify-content: flex-end;
+    background-image: url(/img/dec/bottom-right-p.svg), url(/img/dec/top-left-p.svg) ;
+    background-repeat: no-repeat;
+    background-position: 95% 95%, 3% 5%;
+}
+
+.depoimento-texto q {
+    font-family: var(--fonte-Merriweather);
+    color: var(--cor-amarelo-escuro-3) ;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 48px;
+    width: 36ch;
+    padding: 30px 60px;
+    quotes: none;
+    position: relative;
+}
+
+.depoimento-texto q::before {
+    content: '“';
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+.depoimento-texto q:after {
+    content: "”";
+    position: absolute;
+    bottom: -15px;
+
+
+}
+
+.depoimento-texto q:before, .depoimento-texto q:after {
+    font-size: 5rem;
+    color: var(--cor-amarelo-claro-2);
+}
+
+
+
+
+
+
+
+.depoimento-texto span {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-amarelo-escuro-2);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0px 60px;
+    margin-bottom: 50px;
+
+
+}
