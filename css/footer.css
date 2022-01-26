@@ -1,0 +1,84 @@
+footer {
+    background: var(--cor-preto-1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    margin: 0px 160px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    gap: 10%;
+
+}
+
+.footer-marca, .footer-contato, .footer-informacoes {
+
+    display: flex;
+    flex-direction: column;
+    place-items: start;
+    width: 30%;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.footer-wrapper h3 {
+    font-family: var(--fonte-roboto);
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.footer-contato  div {
+    width: 100%;
+    border-bottom: 2px solid var(--cor-preto-2);
+
+}
+
+.footer-contato div.contato-redes {
+    display: flex;
+    width: 100%;
+    border-bottom: initial;
+    gap: 30px;
+}
+
+
+
+
+
+
+.footer-wrapper span, li a {
+    display: block;
+    font-family: var(--fonte-roboto);
+    color: var(--cor-cinza-5);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 25ch;
+    transition: .2s;
+
+}
+
+.footer-wrapper li a:hover {
+    color: var(--cor-branco);
+}
+
+.copywright {
+    font-family: var(--fonte-roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--cor-cinza-6);
+    padding: 40px 20px;
+    margin: 0px 160px;
+
+}
+
+
+
+
+
