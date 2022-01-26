@@ -46,12 +46,19 @@ footer {
     gap: 30px;
 }
 
+.footer-contato a:hover {
+    color: var(--cor-branco);
+
+}
 
 
 
 
 
-.footer-wrapper span, li a {
+
+
+
+.footer-wrapper span,.footer-wrapper a {
     display: block;
     font-family: var(--fonte-roboto);
     color: var(--cor-cinza-5);
