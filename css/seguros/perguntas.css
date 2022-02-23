@@ -1,0 +1,135 @@
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 100px 160px;
+    padding: 20px;
+}
+
+.perguntas h2 {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-preto-2);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    position: relative;
+    width: fit-content;
+}
+
+.perguntas h2:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--cor-amarelo-claro-1);
+    position: absolute;
+    bottom: 15px;
+    right: -10px;
+    
+}
+
+.perguntas-lista {
+    display: flex;
+    flex-direction: column;
+}
+.perguntas-lista div:nth-child(odd) {
+
+    background: var(--cor-cinza-1);
+
+}
+
+.perguntas-lista-item {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+
+.perguntas-lista-item dt {
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-preto-2);
+    position: relative;
+    cursor: pointer;
+}
+
+.perguntas-lista-item dt::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    background: var(--cor-amarelo-claro-1);
+    left: -20px;
+    top: 8px;
+
+}
+
+.perguntas-lista-item dt::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 6px;
+    position: absolute;
+    background: url('../../img/icones/seta-abrir.svg');
+    cursor: pointer;
+    right: 10px;
+    top: 5px;
+    transition: .3s;
+}
+
+.perguntas-lista-item dt:hover::after {
+    transform: rotate(180deg);
+    
+
+}
+
+
+.perguntas-lista-item dd {
+    max-width: 70%;
+    font-family: var(--fonte-roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-cinza-9);
+    overflow: hidden;
+
+}
+
+
+[data-js] [data-accordion] dd {
+    display: none;
+    
+    
+}
+
+[data-js] [data-accordion] dd.ativo {
+    display: block;
+    animation: unrollUp .1s forwards;
+}
+[data-js] [data-accordion] dt.ativo:after {
+transform: rotate(180deg);
+
+
+}
+
+@keyframes unrollUp {
+    from {
+        display: none;
+        opacity: 0;
+        max-height: 0px;
+    }
+
+    to {
+        display: block;
+        opacity: 1;
+        max-height: fit-content;
+
+
+    }
+    
+}

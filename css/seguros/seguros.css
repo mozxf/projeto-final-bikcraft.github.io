@@ -1,0 +1,185 @@
+.seguros {
+    background: var(--cor-preto-2);
+    display: flex;
+    color: #fff;
+    
+
+}   
+
+.seguros-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 60px;
+    margin: 60px 160px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.seguros-wrapper:before {
+    content: " ";
+    background: url('../../img//dec/top-right.svg');
+    display: flex;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: 2.5% 95%;
+    right: 20px ;
+
+
+}
+
+.seguros-wrapper h2 {
+    font-family: var(--fonte-poppins);
+    color: var(--cor-branco);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    position: relative;
+    width: fit-content;
+}
+
+.seguros-wrapper span {
+    font-family: var(--fonte-roboto);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: var(--cor-cinza-5);
+    text-transform: uppercase;
+
+}
+
+.seguros-wrapper h2:after {
+content: "";
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background: var(--cor-amarelo-claro-1);
+position: absolute;
+bottom: 15px;
+right: -10px;
+
+
+}
+
+.seguros-lista {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguro-card {
+display: flex;
+justify-content: space-between;
+background: var(--cor-preto-1);
+width: 50%;
+height: fit-content;
+border-radius: 4px;
+}
+
+.seguro-card > div {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 30px;
+padding: 30px 64px;
+
+}
+
+.seguro-card h3 {
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 36px;
+    line-height:48px;
+
+}
+
+.seguro-card li{
+    font-family: var(--fonte-roboto);
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px 0px;
+    position: relative;
+
+}
+
+.seguro-card li:before {
+    content: "";
+    background-image: url(/img/icones/lista.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -18px;
+    bottom: 6px;
+
+
+
+}
+
+.prata h3 {
+    color: var(--cor-cinza-6);
+}
+
+.ouro h3 {
+    color: var(--cor-amarelo-claro-1);
+
+}
+
+.seguro-card a {
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
+    transition: .2s;
+}
+
+.prata a {
+    color: var(--cor-cinza-4);
+    background: var(--cor-cinza-10);
+    
+}
+
+.prata a:hover {
+    background: #444343;
+}
+
+
+.ouro a {
+    color: var(--cor-amarelo-escuro-3);
+    background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);;
+    
+}
+
+.ouro a:hover {
+    background: linear-gradient(180deg, #d19d00 0%, #d48f05 100%);;;
+
+}
+
+.seguro-card > span {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: var(--fonte-poppins);
+    color: var(--cor-branco);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    padding: 0px 32px;
+    padding-top: 32px;
+}
+
+.seguro-card span > span {
+    color: var(--cor-cinza-6);
+font-size: 12px;
+line-height: 16px;
+}
